@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#252525</color>
+    <color name="colorTextHint">#c1c0c0</color>
+    <color name="white">#ffffff</color>
+    <color name="buttonjumlah">#276e34</color>
+    <color name="colorbackground">#F6F1E0</color>
+    <color name="black">#000000</color>
+    <color name="backgroundCardView">#259AA1A0</color>
+    <color name="colorfav">#1A815C</color>
+    <color name="colorfav2">#FEC741</color>
+    <color name="ColorGrey">#4C4C4C</color>
+    <color name="ColorBlue">#3498DB</color>
+    <color name="ColorRed">#FF0000</color>
+    <color name="ColorTransparent">@android:color/transparent</color>
+</resources>

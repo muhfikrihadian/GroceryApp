@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerUploadPhotoToko">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_person"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorfav"/>
+
+    <TextView
+        android:id="@+id/select_logo_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Logo Toko"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorfav"
+        android:layout_below="@+id/logo_image"/>
+    <TextView
+        android:id="@+id/pixels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_logo_shop"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="494 x 620px"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_below="@+id/select_logo_shop">
+        <Button
+            android:id="@+id/add_new_logo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:textColor="@color/colorfav2"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+</RelativeLayout>

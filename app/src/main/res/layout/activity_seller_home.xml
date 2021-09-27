@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Sellers.SellerHomeActivity">
+
+    <ImageView
+        android:id="@+id/logo_toko"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_app_nobg"
+        />
+
+    <TextView
+        android:id="@+id/seller_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome seller"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/logo_toko"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/rell1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/seller_welcome"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/daftar_produk_seller_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="List Product"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rell1"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/tambah_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Add Product"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rell2"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/maintain_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Update Product"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rell3"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/info_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Update Profile"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rell4"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/histori_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="History Order"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rell5"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/check_orders_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Check Order"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_shape"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rell7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+    <ImageView
+        android:id="@+id/seller_logout_btn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ic_logout"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    </LinearLayout>
+
+</RelativeLayout>

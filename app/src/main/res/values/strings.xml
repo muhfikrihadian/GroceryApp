@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Grocery</string>
+    <string-array name="TipeProduk">
+        <item>Sembako</item>
+        <item>Perlengkapan Mandi</item>
+        <item>Alat tulis</item>
+        <item>Obat-obatan</item>
+        <item>Makanan</item>
+        <item>Minuman</item>
+        <item>Perlengkapan Bayi</item>
+        <item>Produk Pembayaran Digital</item>
+        <item>Lain-lain</item>
+    </string-array>
+</resources>

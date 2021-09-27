@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Buyers.RegisterActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_app_nobg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        >
+
+        <EditText
+            android:id="@+id/register_username_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:inputType="textPersonName"
+            android:hint="  Nama Lengkap"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/register_phone_number_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:inputType="text|phone"
+            android:hint="  No.HP"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/register_email_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:hint="  Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/register_address_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:hint="  Alamat"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/register_city_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:hint="  Kota"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/register_password_input"
+            android:layout_width="349dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#F1F1F1"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorText"
+            android:textColorHint="#6A6868"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="95dp"
+            android:background="@drawable/rounded_shape"
+            android:text="sign up"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
